@@ -36,7 +36,6 @@ class Quiz:
 
         while True:
             inp = input("Wpisz 1, aby rozpocząć quiz - mix pytań\n\
-Wpisz 2, aby rozpocząć quiz z wybranej kategorii\n\
 Wpisz \"exit\", aby wyjść z programu\n")
 
             match inp:
@@ -52,8 +51,6 @@ Wpisz \"exit\", aby wyjść z programu\n")
 
                     print(f"Poprawnych odpowiedzi: {correctAnswers} / {len(self.questionsList)}\n")
                     correctAnswers = 0
-                case "2":
-                    pass
                 case "exit":
                     break
                 case _:
