@@ -1,0 +1,3 @@
+1,Jak nazywa się największy księżyc Saturna?,astronomia,Rhea,Tytania,Ganimedes,Tytan,Tytan
+2,Jak nazywa się stolica Dominiki?,geografia,Roseau,Santo Domingo,Tegucigalpa,Sucre,Roseau
+3,Jaka jest inna nazwa hormonu wzrostu?,biologia,wazopresyna,oksytocyna,tyreotropina,somatotropina,somatotropina
