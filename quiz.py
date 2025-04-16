@@ -1,3 +1,4 @@
+import random
 
 class Question:
     def __init__(self, id, question, category, answers, correctAnswer):
@@ -35,11 +36,13 @@ class Quiz:
         print("Witaj w quizie!\n")
 
         while True:
-            inp = input("Wpisz 1, aby rozpocząć quiz - mix pytań\n\
+            inp = input("Wpisz 1, aby rozpocząć quiz\n\
 Wpisz \"exit\", aby wyjść z programu\n")
 
             match inp:
                 case "1":
+                    random.shuffle(self.questionsList)
+
                     for el in self.questionsList:  
                         print(el.question)
                         answer = input()
@@ -54,7 +57,7 @@ Wpisz \"exit\", aby wyjść z programu\n")
                 case "exit":
                     break
                 case _:
-                    pass
+                    print("Niepoprawny wybór. Spróbuj ponownie\n")
 
 
 quiz = Quiz()
