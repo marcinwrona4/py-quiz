@@ -13,3 +13,7 @@
  ```
 git clone https://github.com/marcinwrona4/py-quiz.git
 ```
+Go to the project folder and run the Python script to start the quiz:
+```
+python3 quiz.py
+```
