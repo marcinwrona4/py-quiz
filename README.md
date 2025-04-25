@@ -9,11 +9,11 @@
 
 ## Getting started
 
- Clone this repository to your local machine using Git:
+ Clone this repository to your local machine:
  ```
 git clone https://github.com/marcinwrona4/py-quiz.git
 ```
-Go to the project folder and run the Python script to start the quiz:
+Run the Python script to start the quiz:
 ```
 python3 quiz.py
 ```
