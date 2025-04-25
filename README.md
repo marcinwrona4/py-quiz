@@ -1,6 +1,7 @@
 # py-quiz
 
 ## Description
+py-quiz is a quiz app that tests your knowledge of various topics. Each question has 4 answers to choose from. After answering a question, you get an immediate response. At the end, the number of points you have got is shown. This is a very good app to test your knowledge.
 
 ## Features
 - Randomly generated questions
