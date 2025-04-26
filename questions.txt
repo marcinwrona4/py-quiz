@@ -1,3 +1,5 @@
 1,Jak nazywa się największy księżyc Saturna?,astronomia,Rhea,Tytania,Ganimedes,Tytan,Tytan
 2,Jak nazywa się stolica Dominiki?,geografia,Roseau,Santo Domingo,Tegucigalpa,Sucre,Roseau
 3,Jaka jest inna nazwa hormonu wzrostu?,biologia,wazopresyna,oksytocyna,tyreotropina,somatotropina,somatotropina
+4,Jak nazywa się najwyższy szczyt Andów?,geografia,Mont Blanc,Mount Vinson,Aconcagua,Mount Everest,Aconcagua
+5,Jak nazywa się najbardziej wysunięty na zachód punkt Afryki?,geografia,Hafun,Almadi,Ghiran,Igielny,Almadi
