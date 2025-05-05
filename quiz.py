@@ -42,15 +42,16 @@ Wpisz \"exit\", aby wyjść z programu\n")
             match inp:
                 case "1":
                     random.shuffle(self.questionsList)
+                    print()
 
                     for el in self.questionsList:  
                         print(el.question)
                         answer = input()
                         if answer == el.correctAnswer:
-                            print("Poprawna odpowiedź")
+                            print("Poprawna odpowiedź\n")
                             correctAnswers += 1
                         else:
-                            print("Błędna odpowiedź")
+                            print(f"Błędna odpowiedź. Poprawna to: {el.correctAnswer}\n")
 
                     print(f"Poprawnych odpowiedzi: {correctAnswers} / {len(self.questionsList)}\n")
                     correctAnswers = 0
